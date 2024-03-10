@@ -4,7 +4,7 @@ Repositório para armazenar exercícios das aulas de Algoritmos I, lecionadas na
 ## Problemas resolvidos
 <ul>
   <h3><li><a href="https://cses.fi/problemset/task/1669" title="">Round Trip</a></li></h3>
-  <p>Nesse problema, usa-se grafos, mais especificamene seus vértices, para representar cidades, e as arestas para representar as rodovias que ligam essas cidades. Além disso, deve-se usar DFS para percorrer os vértices e usar um método para encontrar ciclos e, se existirem, imprimi-los.</p>
+  <p>Nesse problema, usa-se grafos, mais especificamente seus vértices, para representar cidades, e as arestas para representar as rodovias que ligam essas cidades. Além disso, deve-se usar DFS para percorrer os vértices e usar um método para encontrar ciclos e, se existirem, imprimi-los.</p>
 </ul>
 
 ## Bibliografia
