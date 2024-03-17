@@ -11,11 +11,6 @@ vector<vector<int>> adj(MAX);
 vector<bool> visited;
 vector<int> tin, low;
 
-void teste()
-{
-    std::cout << "dor" << std::endl;
-}
-
 void dfs(int verticeVigente, int paiDoVertice = -1)
 {
     visited[verticeVigente] = 1;
