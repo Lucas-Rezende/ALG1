@@ -24,6 +24,7 @@ void DFS(int V, int pai = -1) {
             low[V] = min(low[V], tin[to]);
         } else
         {
+            //parent[to] = V;
             low[V] = min(low[V], low[to]);
             if (low[to] >= tin[V] && pai != -1)
             {
@@ -63,6 +64,12 @@ int main(int argc, char const *argv[])
         adj[num2 - 1].push_back(num1 - 1);
     }
     FindArticulationPoints();
+
+    for (size_t i = 1; i < m; i++)
+    {
+        //printf("%d %d", i, parent[i]);
+    }
+    
 
     return 0;
 }
