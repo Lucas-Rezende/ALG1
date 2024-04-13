@@ -15,6 +15,12 @@ Repositório para armazenar exercícios das aulas de Algoritmos I, lecionadas na
   <p>Seja um grafo acíclico dirigido (GAD). A ordenação topológica do mesmo é uma ordenação linear de todos os seus vértices tal que, se G contém uma aresta (u, v), então u aparecerá antes de v na ordenação. A ordenação topológica é executada em O(V + E) e a inserção de cada um dos V vértices possui complexidade O(1).</p>
 </ul>
 
+## Trabalhos Práticos
+<ul>
+  <h3><li><a href="https://github.com/Lucas-Rezende/ALG1/tree/main/_TP1" title="">Trabalho Prático 1</a></li></h3>
+  <p>Neste trabalho prático, o objetivo é aplicar conceitos de grafos e o algoritmo de DFS para encontrar pontos de articulação (ou cut points), identificar componentes biconexas e gerar florestas que representem essas componentes. A floresta possui como        vértices as componentes biconexas e os pontos de articulação, e há arestas entre eles se o ponto de articulação pertencer à componente biconexa correspondente.</p>
+</ul>
+
 ## Bibliografia
 <ul>
   <li><a href="https://cp-algorithms.com/graph/finding-cycle.html)https://cp-algorithms.com/graph/finding-cycle.html" title="Link">Checking a graph for acyclicity and finding a cycle in O(M)</a></li>
