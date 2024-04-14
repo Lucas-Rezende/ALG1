@@ -13,6 +13,10 @@ Repositório para armazenar exercícios das aulas de Algoritmos I, lecionadas na
   <p>Pontos de articulação, no contexto de grafos, são vértices que, se removidos, incrementam o número de grafos conexos. Nesse sentido, esse algoritmo faz uso do DFS e, com complexidade O(N + M), permite que possamos verificar a existência desses pontos.</p>
   <h3><li><a href="https://www.geeksforgeeks.org/topological-sorting/" title="">Topological Sort</a></li></h3>
   <p>Seja um grafo acíclico dirigido (GAD). A ordenação topológica do mesmo é uma ordenação linear de todos os seus vértices tal que, se G contém uma aresta (u, v), então u aparecerá antes de v na ordenação. A ordenação topológica é executada em O(V + E) e a inserção de cada um dos V vértices possui complexidade O(1).</p>
+  <h3><li><a href="https://cses.fi/problemset/task/1667" title="">Message Route 1</a></li></h3>
+  <p>A partir de um grafo qualquer, busca-se encontrar o menor caminho entre o computador 1 e o computador n. Para isso, usas-se o algoritmo de BFS, que possui complexidade de O(V+E)</p>
+  <h3><li><a href="https://github.com/Lucas-Rezende/ALG1/tree/main/MessageRoute2" title="">Message Route 2</a></li></h3>
+  <p>A partir de um grafo qualquer, busca-se encontrar o menor caminho entre quaisquer computadores (vértices) informados pelo usuário, contanto que os vértices estejam entre 1 e n. Para isso, usas-se o algoritmo de BFS, que possui complexidade de O(V+E)</p>
 </ul>
 
 ## Trabalhos Práticos
@@ -27,4 +31,5 @@ Repositório para armazenar exercícios das aulas de Algoritmos I, lecionadas na
   <li><a href="https://cp-algorithms.com/graph/cutpoints.html" title="Link">Finding articulation points in a graph in O(N+M)</a></li>
   <li><a href="https://cp-algorithms.com/graph/bridge-searching.html" title="Link">Finding bridges in a graph in O(N+M)</a></li>
   <li><a href="https://www.geeksforgeeks.org/topological-sorting/" title="Link">Topological Sorting</a></li>
+  <li><a href="https://cp-algorithms.com/graph/breadth-first-search.html#applications-of-bfs" title="Link">Breadth First Search</a></li>
 </ul>
